@@ -1,0 +1,93 @@
+body {
+    font-family: Roboto, sans-serif;
+    background: url("img/background.jpg") no-repeat;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    font-size: .8rem;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+    font-weight: lighter;
+    margin: 0;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+h4 {
+    position: relative;
+    top: 5px;
+    text-align: center;
+    font-size: .75rem;
+    margin: 0;
+    padding: 10px 0px;
+    font-weight: lighter;
+}
+
+.active, .inactive {
+    position: relative;
+    display: inline;
+    bottom: 5px;
+}
+
+div.card {
+    border-bottom: 1px solid #DEDEDE;
+    margin-top: 5px;
+    transition: ease-in;
+    padding: 5px 0;
+}
+
+div.card:hover {
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    background: white;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+p.elipses {
+    font-size: 2rem;
+    color: #DEDEDE;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.brand {
+    max-height: 25px;
+    margin-left: 30px;
+}
+
+div.card span {
+ margin-right: 50px;
+ margin-left: 50px;
+ font-size: .8rem;
+}
+
+.next {
+    background: #598BDD;
+    color: white;
+    max-height: 40px;
+    width: 100%;
+}
+
+.next img {
+    max-height: 15px;
+    position: relative; 
+    bottom: 20px;
+    left: 40px;
+}
+
+.inactive {
+    color: #a3a0a0;
+}
