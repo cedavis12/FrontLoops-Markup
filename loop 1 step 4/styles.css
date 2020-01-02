@@ -1,0 +1,52 @@
+:root {
+  font-family: Roboto, Calibri, sans-serif;
+  --baby-blue: #6a96d8;
+  --light-blue: #e6edf6;
+  --grey: #f2f2f2;
+  --coral: #ffc2c1;
+}
+
+body {
+  background: #cfdde8;
+  background: linear-gradient(to bottom, #cfdde8, #8cacc8);
+  background: -moz-linear-gradient(to bottom, #cfdde8, #8cacc8);
+  background: -webkit-linear-gradient(to bottom, #cfdde8, #8cacc8);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.message-box {
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 15%;
+  width: 65%;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-around;
+  background: var(--baby-blue);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+svg {
+  margin-top: 17px;
+}
+
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--grey);
+  font-weight: bold;
+}
+
+h5::before,
+h5::after {
+  display: inline-block;
+  content: '';
+  border-top: 1px solid var(--grey);
+  width: 40%;
+  margin: 4px;
+}
